@@ -31,8 +31,8 @@ from datetime import datetime, timedelta
 # ----------------------------------------------------------------------------
 SEED = 42
 N_TICKETS = 4000
-START_DATE = datetime(2025, 1, 1)
-END_DATE = datetime(2025, 12, 31, 23, 59)
+START_DATE = datetime(2024, 07, 1)
+END_DATE = datetime(2025, 06, 29, 23, 59)
 
 rng = np.random.default_rng(SEED)
 
